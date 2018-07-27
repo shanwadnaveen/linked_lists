@@ -2,7 +2,7 @@ class node_class;
   int value;    
   static int node_count = 0;
 
-  node_class next_node;
+  node_class next;
 
   virtual function void print_node();
      $write(value, "");
